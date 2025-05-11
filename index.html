@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Web Hub</title>
+    <link rel="stylesheet" href = "CSS/style.css">
+</head>
+<body>
+    <header>
+        <a class="logo" href="/"><img src="IMG/The Web Hub_transparent-.png" alt="logo"></a>
+        <nav>
+            <ul class="nav__links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/#about">About Us</a></li>
+                <li><a href="/#team">Our Team</a></li>
+                <li><a href="Apply.html">Apply</a></li>
+            </ul>
+        </nav>
+        <a class="cta" href="/#contact">Contact Us</a>
+        <p class="menu cta">Menu</p>
+    </header>
+    <div id="mobile__menu" class="overlay">
+        <a class="close">&times;</a>
+        <div class="overlay__content">
+            <a href="/">Home</a>
+            <a href="/#about">About Us</a>
+            <a href="/#team">Our Team</a>
+            <a href="Apply.html">Apply</a>
+            <a href="/#contact">Contact Us</a>
+        </div>
+    </div>
+    <script type="text/javascript" src="JS/mobile.js"></script>
+<main> 
+    <section class="hero">
+        <h1>Welcome to The Web Hub</h1>
+        <p>Web Hub crafts stunning, responsive websites tailored to your brand. We blend creativity and technology to bring your online vision to life. Let's build something amazing together!</p>
+        <div class="hero-buttons">
+          <a href="/Apply.html">Job Opportunities</a>
+          <a href="#contact">Contact Us</a>
+        </div>
+      </section>
+      <section class="team" id = team>
+        <h2>Our Team</h2>
+        <div class="team-members">
+          <div class="member">
+            <img src="IMG/Person1.jpg" alt="John Doe">
+            <h3>John Doe</h3>
+            <p class="role">CEO & Founder</p>
+            <p class="info">John leads the vision of Web Hub, blending innovation with creativity to deliver outstanding websites.</p>
+            <div class="social-icons">
+              <a href="#"><img src="IMG/linkedin.png" alt="LinkedIn"></a>
+              <a href="#"><img src="IMG/twitter.png" alt="Twitter"></a>
+              <a href="#"><img src="IMG/instagram.png" alt="Instagram"></a>
+            </div>
+          </div>
+      
+          <div class="member">
+            <img src="IMG/Person2.jpg" alt="Jane Smith">
+            <h3>Jane Smith</h3>
+            <p class="role">Lead Developer</p>
+            <p class="info">Jane specializes in coding robust and scalable websites, ensuring every project runs smoothly and efficiently.</p>
+            <div class="social-icons">
+              <a href="#"><img src="IMG/linkedin.png" alt="LinkedIn"></a>
+              <a href="#"><img src="IMG/twitter.png" alt="Twitter"></a>
+              <a href="#"><img src="IMG/instagram.png" alt="Instagram"></a>
+            </div>
+          </div>
+      
+          <div class="member">
+            <img src="IMG/Person3.jpg" alt="Mike Johnson">
+            <h3>Mike Johnson</h3>
+            <p class="role">UI/UX Designer</p>
+            <p class="info">Mike crafts beautiful, user-friendly designs that make every Web Hub project visually stunning and intuitive.</p>
+            <div class="social-icons">
+              <a href="#"><img src="IMG/linkedin.png" alt="LinkedIn"></a>
+              <a href="#"><img src="IMG/twitter.png" alt="Twitter"></a>
+              <a href="#"><img src="IMG/instagram.png" alt="Instagram"></a>
+            </div>
+          </div>
+      
+          <div class="member">
+            <img src="IMG/Person4.jpg" alt="Emily Davis">
+            <h3>Emily Davis</h3>
+            <p class="role">Project Manager</p>
+            <p class="info">Emily ensures projects stay on track, communicating with clients and leading the team to deliver on time.</p>
+            <div class="social-icons">
+              <a href="#"><img src="IMG/linkedin.png" alt="LinkedIn"></a>
+              <a href="#"><img src="IMG/twitter.png" alt="Twitter"></a>
+              <a href="#"><img src="IMG/instagram.png" alt="Instagram"></a>
+            </div>
+          </div>
+        </div>
+        <div class="apply-now">
+            <a href="/Apply.html" class="btn">Join the Team</a>
+          </div>
+      </section>
+      <section class="about" id = about>
+        <div class="about-content">
+          <h2>About Us</h2>
+          <p>
+            At Web Hub, we are passionate about building beautiful, functional websites that help businesses grow online. 
+            Our talented team combines creativity and technical skills to deliver top-quality digital solutions tailored to your needs.
+          </p>
+          <p>
+            Whether you're a startup or an established brand, we are here to create a web presence that stands out and drives success. 
+            Let's bring your ideas to life!
+          </p>
+          <a href="#contact" class="btn">Get in Touch</a>
+        </div>
+        <div class="about-image">
+          <img src="IMG/aboutus.jpeg" alt="About Web Hub">
+        </div>
+      </section>
+      <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <p>We'd love to hear from you! Please fill out the form below, and we'll get back to you as soon as possible.</p>
+      
+        <div class="contact-container">
+          <div class="contact-form-container">
+            <form action="#" method="POST" class="contact-form">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+              </div>
+      
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+              </div>
+      
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+              </div>
+      
+              <button type="submit" class="btn">Send Message</button>
+            </form>
+          </div>
+      
+          <div class="map-container">
+            <h3>Our Location</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=YOUR_MAP_EMBED_URL_HERE" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </div>
+      </section>
+</main>
+    
+
+<footer class="footer">
+    <div class="footer-container">
+      <div class="footer-left">
+        <h3>Web Hub</h3>
+        <p>Your go-to destination for building stunning websites. Let's create something amazing together!</p>
+        <a href="/"><img src="IMG/The Web Hub_transparent-.png" alt="the web hub logo"></a>
+      </div>
+      
+      <div class="footer-middle">
+        <h4>Quick Links</h4>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/#about">About Us</a></li>
+            <li><a href="/#team">Our Team</a></li>
+            <li><a href="Apply.html">Apply</a></li>
+            <li><a href="/#contact">Contact Us</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-right">
+        <h4>Follow Us</h4>
+        <div class="social-icons">
+          <a href="https://facebook.com" target="_blank"><img src="IMG/facebook.png" alt="Facebook"></a>
+          <a href="https://twitter.com" target="_blank"><img src="IMG/twitter.png" alt="Twitter"></a>
+          <a href="https://instagram.com" target="_blank"><img src="IMG/instagram.png" alt="Instagram"></a>
+          <a href="https://linkedin.com" target="_blank"><img src="IMG/linkedin.png" alt="LinkedIn"></a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p>&copy; 2025 The Web Hub. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
